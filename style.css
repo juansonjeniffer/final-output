@@ -1,0 +1,112 @@
+#banner {
+    height: 90vh;
+    background:url(qwe.jpg);
+    background-size: cover;
+    background-attachment: fixed ;
+    background-position: center;
+
+}
+    
+.btn {
+    padding: a15px 30px;
+    transition: all 0.4s ease;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 1px;
+    letter-spacing: 2px;
+}
+
+.btn-brand { 
+    background-color: red;
+    color: #fff;
+    border: 2px white;
+
+
+}
+
+section{
+    padding: 100px 0;
+}
+
+#about h2{
+     font-size: 55px;
+     font-weight: 900;
+     color: red;
+
+}
+
+#about .btn-brand:hover {
+    color: black;
+    border-color: black;
+}
+
+#about {
+    background-color: lavender;
+}
+
+.Kiffy {
+    width: 40%;
+}
+.services .btn-brand:hover{
+    color: black;
+    border-color: black;
+}
+
+#services h2{
+    font-size: 55px;
+    font-weight: 900;
+    color: red;
+}
+
+#cta {
+    height: 70vh;
+    background: url(asd.avif);
+    background-size: cover;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+    
+.testimonials img{
+    width: 75px;
+}
+.testimonials{
+    border: 2px solid rgb(57,149,57);
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.accordion-item{
+    margin-bottom: 20px;
+    border-radius: 0 !important;
+}
+
+.accordion-button{
+    background-color: rgb(121, 121, 121);
+    border: none;
+    border-bottom: 1px solid rgb(105, 105, 105);
+    border-radius: 0 !important;
+    padding: 18px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.accordion-body{
+    border-left: 3px solid rgb(226, 209, 151);
+    padding: 10px, 15px;
+    margin-left: 0;
+    background-color: bisque;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: rgb(226,215.167);
+    color: antiquewhite;
+}
+
+.accordion-button:hover{
+    background-color: rgb(221, 194, 145);
+    color: bisque;
+}
