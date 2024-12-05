@@ -1,6 +1,6 @@
 #banner {
     height: 90vh;
-    background:url(qwe.jpg);
+    background:url('./qwe.jpg');
     background-size: cover;
     background-attachment: fixed ;
     background-position: center;
