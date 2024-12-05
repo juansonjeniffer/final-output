@@ -86,28 +86,18 @@
     </div>
   </section>
 
-  <!-- SERVICES -->
-<?php
-include 'includes/serbisyo.php';
-?>
+  
+<!-- FRONT_SERVICES -->
 
-  <div id="cta" class="d-flex align-items-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center text-light">
-          <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, quam!</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione dicta fugiat suscipit sunt ipsam
-            doloribus at saepe maiores quam reprehenderit.</p>
-          <a href="" class="btn btn-brand"> Please Click Here </a>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <?php
-  include 'includes/rebyew.php';
+  include './includes/front_services.php'
   ?>
 
+ <!-- REVIEWS -->
+<?php
+  include './includes/rebyew.php';
+  ?>
 
       <!--ITEM-->
       <div class="row row-cols-lg-3">
@@ -203,7 +193,6 @@ include 'includes/serbisyo.php';
         </div>
       </div>
     </div>
-
     <!--FAQS-->
   </section>
 

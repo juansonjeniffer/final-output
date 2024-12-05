@@ -12,12 +12,12 @@
     transition: all 0.4s ease;
     font-weight: 700;
     font-size: 18px;
-    border-radius: 1px;
+    border-radius: 8px;
     letter-spacing: 2px;
 }
 
 .btn-brand { 
-    background-color: red;
+    background-color: rgba(3, 3, 3, 0.275);
     color: #fff;
     border: 2px white;
 
