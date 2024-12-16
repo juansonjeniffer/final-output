@@ -34,7 +34,7 @@ $username = $_SESSION['username'];
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dashboard</title>
 </head>
-<body style="background: url(image/setting.jpg);">
+<body style="background: url(image/hala.jpg);">
 <nav style="margin-top: 350px;">
     <center>
       <h1> <b> <a href="services.php" style="color: white;">Manage Services</a> |</b>
