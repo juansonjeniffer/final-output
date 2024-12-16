@@ -27,11 +27,11 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">About</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
+              Services
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Action</a></li>
@@ -94,10 +94,13 @@
   include './includes/front_services.php'
   ?>
 
+
+  
  <!-- REVIEWS -->
 <?php
   include './includes/rebyew.php';
   ?>
+
 
       <!--ITEM-->
       <div class="row row-cols-lg-3">
@@ -134,7 +137,7 @@
         <div class="col">
           <div class="testimonials">
             <div class="d-flex">
-              <img src="cactus.jpeg" alt="">
+              <img src="dark.jpg" alt="">
               <div class="ms-3">
                 <h3>clientName</h3>
                 <p>Lorem ipsum dolor sit amet.</p>

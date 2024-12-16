@@ -23,6 +23,7 @@
       if ($result->num_rows > 0) {
         while ($row = $result->fetch_assoc()) {
           ?>
+         
           <div class="col-lg-4 d-flex align-items-center justify-content-center">
             <div class="card text-center p-3" style="width: 22rem;">
               <img src="uploads/<?php echo htmlspecialchars($row['image']); ?>" 

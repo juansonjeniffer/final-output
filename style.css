@@ -1,6 +1,6 @@
 #banner {
     height: 90vh;
-    background:url('./qwe.jpg');
+    background:url('hala.jpg');
     background-size: cover;
     background-attachment: fixed ;
     background-position: center;
@@ -41,38 +41,51 @@ section{
 }
 
 #about {
-    background-color: lavender;
+    background-color: rgb(248, 185, 153);
+
 }
 
 .Kiffy {
     width: 40%;
 }
-.services .btn-brand:hover{
+.front_services .btn-brand:hover{
     color: black;
     border-color: black;
+    background-color: aqua;
+
+}
+
+#services{
+    background-color: #d2c2bce2;
 }
 
 #services h2{
     font-size: 55px;
     font-weight: 900;
     color: red;
+    
 }
 
 #cta {
     height: 70vh;
-    background: url(asd.avif);
+    background: url('./asd.avif');
     background-size: cover;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+#services_bg {
+    background-color: rgb(166, 233, 160);
+
+}
     
 .testimonials img{
     width: 75px;
 }
 .testimonials{
-    border: 2px solid rgb(57,149,57);
+    border: 2px solid rgb(171, 171, 171);
     padding: 20px;
     border-radius: 20px;
     margin-top: 20px;
@@ -80,6 +93,8 @@ section{
 .accordion-item{
     margin-bottom: 20px;
     border-radius: 0 !important;
+
+
 }
 
 .accordion-button{
@@ -103,10 +118,10 @@ section{
 
 .accordion-button:not(.collapsed){
     background-color: rgb(226,215.167);
-    color: antiquewhite;
+    color: rgb(10, 10, 10);
 }
 
 .accordion-button:hover{
     background-color: rgb(221, 194, 145);
-    color: bisque;
+    color: rgb(12, 12, 12);
 }
