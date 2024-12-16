@@ -1,6 +1,6 @@
 #banner {
     height: 90vh;
-    background:url('hala.jpg');
+    background:url('./image/hala.jpg');
     background-size: cover;
     background-attachment: fixed ;
     background-position: center;
@@ -68,7 +68,7 @@ section{
 
 #cta {
     height: 70vh;
-    background: url('./asd.avif');
+    background: url('./image/hala.jpg');
     background-size: cover;
     background-position: center;
     background-size: cover;

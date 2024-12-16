@@ -96,7 +96,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 
 </head>
-<body style="background-image: url(image/check.jpg);">
+<body style="background-image: url(./image/check.jpg);">
     <form method="POST" class="login-form">
         <h2>Login</h2>
         <input type="text" name="username" placeholder="Username" required>
